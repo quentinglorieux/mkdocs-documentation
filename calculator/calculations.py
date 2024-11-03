@@ -25,6 +25,7 @@ The module contains the following functions:
 
 from typing import Union
 
+
 def add(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the sum of two numbers.
 
@@ -42,6 +43,7 @@ def add(a: Union[float, int], b: Union[float, int]) -> float:
         A number representing the arithmetic sum of `a` and `b`.
     """
     return float(a + b)
+
 
 def subtract(a: Union[float, int], b: Union[float, int]) -> float:
     """Calculate the difference of two numbers.
@@ -61,6 +63,7 @@ def subtract(a: Union[float, int], b: Union[float, int]) -> float:
     """
     return float(a - b)
 
+
 def multiply(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the product of two numbers.
 
@@ -78,6 +81,7 @@ def multiply(a: Union[float, int], b: Union[float, int]) -> float:
         A number representing the product of `a` and `b`.
     """
     return float(a * b)
+
 
 def divide(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the quotient of two numbers.
